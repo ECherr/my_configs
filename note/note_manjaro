@@ -1,0 +1,123 @@
+manjaro
+
+###vim: /usr/lib/libm.so.6: version `GLIBC_2.29' not found (required by vim)###
+
+# sudo pacman -Syyu
+
+source 
+
+# sudo pacman-mirrors -i -c China -m rank
+select one of lists and press OK double times
+
+and then 
+
+# sudo pacman -Syy
+
+archlinux source 
+
+edit /etc/pacman.conf
+add end of file
+
+[archlinuxcn]
+SigLevel = Optional TrustedOnly
+Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+
+and then 
+
+# sudo pacman -Syy
+
+install yaourt 
+# sudo pacman -S yaourt
+#
+install neteasemusic
+# yaourt -S netease-cloud-music
+
+
+install QQ/TIM
+# pacman -S deepin.com.qq.office或pacman -S deepin.com.qq.im
+# yaourt -S gnome-settings-daemon
+# /usr/lib/gsd-xsettings OR
+# nohup /usr/lib/gsd-xsettings > /dev/null 2>&1 &
+# cd /opt/deepinwine/apps/Deepin-TIM 或者 /opt/deepinwine/apps/Deepin-QQ
+# ./run.sh
+中文问题
+系统语言非中文时，中文全显示成方块，需要在 /opt/deepinwine/tools/run.sh 中将 WINE_CMD 那一行修改为
+
+WINE_CMD=”LC_ALL=zh_CN.UTF-8 deepin-wine”
+
+install feh
+# sudo pacman -S feh
+#
+
+install compton
+# sudo pacman -S compton
+
+install gvim 
+# sudo pacman -S gvim
+#
+
+install git
+
+#sudo pacman -S git 
+
+
+install oh my zsh 
+
+# sudo pacman -S zsh
+#
+set oh-my-zsh?
+
+# sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+#
+change shell
+
+# chsh -s /bin/zsh
+#
+
+install fcitx
+
+# sudo pacman -S fcitx-googlepinyin
+# sudo pacman -S fcitx-im
+# sudo pacman -S fcitx-configtool
+#
+set PATH
+# sudo vim ~/.xprofile
+add 
+
+
+
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS="@im=fcitx"
+
+google-chrome
+
+# sudo pacman -Syy && sudo pacman -S archlinuxcn-keyring
+# sudo pacman -S google-chrome
+#
+deepin-terminal
+
+# sudo pacman -S deepin-terminal
+# 
+#
+# OK good night!
+#
+#
+
+install albert
+# sudo pacman -S albert
+
+alacritty
+
+gaps inner 15
+
+exec_always --no-startup-id ~/.config/i3/polybar.sh &
+
+polybar.sh 
+
+#!/usr/bin/bash
+killall -q polybar
+
+while pgrep -x >/dev/null; do sleep 1; done
+
+polybar bar1
