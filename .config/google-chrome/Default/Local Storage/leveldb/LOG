@@ -1,0 +1,15 @@
+2019/07/22-20:54:52.990 4a3 Reusing MANIFEST leveldb/MANIFEST-000001
+2019/07/22-20:54:52.990 4a3 Recovering log #133
+2019/07/22-20:54:52.990 4a3 Reusing old log leveldb/000133.log 
+2019/07/22-21:03:43.426 92f Level-0 table #137: started
+2019/07/22-21:03:43.432 92f Level-0 table #137: 31494 bytes OK
+2019/07/22-21:03:43.434 92f Delete type=0 #133
+2019/07/22-21:03:43.434 b4f Compacting 4@0 + 1@1 files
+2019/07/22-21:03:43.446 b4f Generated table #138@0: 175 keys, 94036 bytes
+2019/07/22-21:03:43.446 b4f Compacted 4@0 + 1@1 files => 94036 bytes
+2019/07/22-21:03:43.448 b4f compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/07/22-21:03:43.449 b4f Delete type=2 #134
+2019/07/22-21:03:43.449 b4f Delete type=2 #132
+2019/07/22-21:03:43.449 b4f Delete type=2 #128
+2019/07/22-21:03:43.449 b4f Delete type=2 #130
+2019/07/22-21:03:43.449 b4f Delete type=2 #137

@@ -1,0 +1,26 @@
+{
+    "Cache": {
+        "SearchHistroy": [
+            "asound"
+        ]
+    },
+    "FileViewState": {
+        "file:///run/media/arvin/UBUNTU 16_0": {
+            "sortOrder": 0,
+            "sortRole": 265
+        },
+        "standard://home": {
+            "sortOrder": 0,
+            "sortRole": 265
+        }
+    },
+    "WindowManager": {
+        "SplitterState": {
+            "sidebar": 200
+        },
+        "WindowState": {
+            "height": 902,
+            "width": 1772
+        }
+    }
+}

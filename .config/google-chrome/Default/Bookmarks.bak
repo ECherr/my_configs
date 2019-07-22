@@ -1,0 +1,42 @@
+{
+   "checksum": "d798c10c612b31ab8311e7f25ad33c44",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13206705890415073",
+            "id": "5",
+            "name": "2019年wine QQ最完美解决方案（多Linux发行版通过测试并稳定运行） | 撸Linux",
+            "type": "url",
+            "url": "https://www.lulinux.com/archives/1319"
+         }, {
+            "date_added": "13206706088569666",
+            "id": "6",
+            "name": "Arch linux i3wm运行腾讯QQ/TIM",
+            "type": "url",
+            "url": "http://www.waimaosns.cc/arch-linux-i3wm-run-deepin-qq-tim/"
+         } ],
+         "date_added": "13206703570721041",
+         "date_modified": "13206706088569666",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13206703570721047",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13206703570721049",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
